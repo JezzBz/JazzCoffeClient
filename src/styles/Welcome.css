@@ -1,0 +1,47 @@
+.Welcome{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../source/FirstBack.jpg");
+    background-size: cover;
+    
+    
+}
+
+
+.Welcome .LogoGrey{
+    max-height: 22vh;
+    max-width: 22vw;
+    min-width: 20vh;
+    min-height: 16vw;
+    margin-left: 10vw;
+    
+}
+
+.WelcomeText{
+    
+    color: white;
+    font-size: 8vh;
+    font-family: 'Ephesis', cursive;
+}
+.WelcomeContainer{   
+
+padding-top: 25vh;
+padding-left: 10vw;
+}
+@media screen and (max-width: 1000px) {
+    .Welcome .LogoGrey{
+        max-height: 22vh;
+        max-width: 22vw;
+        min-width: 20vh;
+        min-height: 16vw;
+        margin-left: 8vh;
+        
+    }
+    .WelcomeText{
+
+        font-size: 70pt;
+    }
+       
+}
+

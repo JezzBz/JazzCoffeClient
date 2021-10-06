@@ -1,0 +1,21 @@
+.NotFound{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../source/adminBg.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.NotFound img{
+    width: 20rem ;
+    opacity: 50%;
+}
+.NotFound .Container{
+    display:block ;
+    text-align: center;
+}

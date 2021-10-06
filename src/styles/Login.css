@@ -1,0 +1,51 @@
+.AdminLoginPage{
+    height: 100vh;
+    width: 100vw;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("../source/adminBg.jpg");
+    background-size: cover;
+}
+.Form{
+    
+    background-color: rgba(63, 112, 191, 0.2);
+    height: 50vh;
+    width: 50vw;
+    
+    border-radius: 6vmin;
+    
+}
+.Logintext{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15vmin; 
+    text-align: center;
+}
+.Button{
+    margin-top: 5%;
+    height: 8vh;
+    width: 10vw;
+    border-radius: 10vmin;
+    margin-left: 40%;
+    color: white;
+    background: transparent;
+    
+    transition-duration: 0.4s;
+}
+.Button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+#Password{
+    margin-top: 6%;
+    margin-left: 10%;
+    border-radius: 20vmax;
+    height: 4vmax;
+    width: 40vw;
+    border:none;
+    
+    font-size: 25px;
+    
+}

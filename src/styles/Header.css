@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+}
+.Header{    
+    position: fixed;
+    width: 100vw;
+    height: 115px;
+    background-color: rgba(102, 61, 21, 0.10);
+    
+}
+.Header .Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:5%;
+    justify-content: space-between;
+    font-family: 'Gemunu Libre', sans-serif;
+   
+}
+.LogoText{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    margin-top: 2vh;
+    margin-left: 1vw;
+   
+    
+    
+}
+.Logo{
+    margin-top: 0.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Btns{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-right:50px;
+}
+.HeaderBtn{
+    text-decoration: none;
+    color:white;
+    margin-right: 30px;
+    font-family: 'Staatliches', cursive;
+}
+
+@media screen and (max-width: 1000px) {
+    .Btns{
+       
+        font-size: 30pt;
+    
+    }
+   
+    .LogoText{
+        color: white;
+        
+        font-size: 50px;
+        
+        
+    }
+    .Logo{
+        margin: 0 0 0 0 ;
+    }
+}

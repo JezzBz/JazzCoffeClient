@@ -1,0 +1,31 @@
+.Assortment{
+    
+    text-align: center;
+    max-width: 100vw;
+    
+    width: 100vw;
+    background-repeat: repeat-y;
+    background-image: url("../source/BackgroundSecondGrid.jpg");
+    background-size:cover;
+}
+.AssortmentContiner{
+    max-width: fit-content;
+}
+.AssotmentHeadline{
+    padding: 20vh 0 0 0 ;
+    
+    color: white;
+    font-size: 8vh;
+    font-family: 'Ephesis', cursive;
+    
+}
+.Cards{
+    
+    
+    justify-content:space-between;
+    padding-top: 5vh;
+    
+    width: 100vw;
+    display: inline-block;
+    
+}

@@ -1,0 +1,93 @@
+.Card{
+    color: white;
+    align-items: center;
+    padding-left: 8.5%;
+    display:block;
+    float: left;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+.Card_Img{
+    max-width: 22vw;
+}
+.CardTextBlock{
+    
+    background-color:rgba(162, 95, 32, 0.12);
+    
+  
+    min-height: 20vh;
+    
+    width: 22vw;
+    height: 35vh;
+    
+      
+}
+.CardTextBlock h2{
+    font-family: 'Ephesis', cursive;
+    
+}
+.CardTextBlock p{
+    
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Gluten', cursive;
+    font-size: 3vh;
+    text-align: left;
+}
+.CardBottom{
+    min-height: 4em;
+    height: auto;
+    max-height:min-content;
+    position: relative;
+}
+.AddToCartBtn {
+    position: absolute;
+    
+    font-family: 'Ephesis', cursive;
+    font-size: 2vh;
+    border:solid 1px;
+    border-color:rgba(162, 95, 32, 1);
+    bottom: 1vh;
+    right: 2vh;
+    height: 5vh;
+    width: 6vmax;
+    border-radius: 5px;
+    background-color: #C27E45;
+    
+    
+    
+  }
+  .AddToCartBtn:hover {
+    
+    background-color:rgba(162, 95, 32, 0.12);
+  }
+  .Cost{
+      color: white;
+  }
+  @media screen and (max-width: 1000px) {
+    .Card_Img{
+        max-width: 40vw;
+    }
+    .CardTextBlock h2{
+        font-size: 2.5vh;
+        
+    }
+    .CardTextBlock{
+        width: 40vw;
+        height: 26vh;
+    }
+    .CardTextBlock p{
+        font-size: 2vh;
+    }
+    .CardBottom{
+        min-height: 6em;
+        height: auto;
+        max-height:min-content;
+    }
+    .AddToCartBtn {
+        
+        max-height:3vh;
+        
+    }
+  }
